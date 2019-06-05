@@ -215,3 +215,26 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max width: 900px) {
+  p {
+    color: blue;
+  }
+  .container {
+    padding: 0, 20px;
+    max-width: 768px;
+  }
+  #main-container {
+    padding-top: 130px;
+  }
+  .main-section {
+    max-width: 420px;
+  }
+  .work {
+    width: 100%;
+  }
+  .auth-image {
+    width: 100%;
+  }
+}
+
